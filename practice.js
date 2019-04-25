@@ -160,7 +160,7 @@ function pond() {
 
 //This array should contain the variable names (as strings) accessible in the global scope.
 let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-var globalscope
+
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
 let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
