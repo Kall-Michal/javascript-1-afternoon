@@ -160,28 +160,40 @@ function pond() {
 
 //This array should contain the variable names (as strings) accessible in the global scope.
 let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-define
+globalScope.join(", ");
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
+function bathroom {
 let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+    return bathroomScope.join(", ");
+};
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+function bathScope(){
+    let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+    return bathtubScope.join(", ");
+    
+};
+
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+function PondSc() {
+    let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+     return pondScope.join(", ");
+};
 
 //////////////////PROBLEM 14////////////////////
 
 //Create a variable called age with your age assigned to you
 
-// Code Here
+let age = 24;
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-// Code Here
+age = 25;
 
 // Good news! We can live forever. Set your age to 999
 
-// Code Here
+age = 999;
+
