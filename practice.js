@@ -85,7 +85,7 @@ const devMountainClassPet = dog.name;
 // with NAMEPARAM being the name parameter being passed in
 
 function nameCheck(NAMEPARAM){
-    if(NAMEPARAM === "Steven".){
+    if(NAMEPARAM === "Steven"){
         console.log(`What's up ${NAMEPARAM}`)
     } else if(NAMEPARAM === "Bryan"){
         console.log(`Hey ${NAMEPARAM}.`)
