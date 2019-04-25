@@ -10,6 +10,7 @@ const myName = "Michal";
 //Create a variable called myAge that is a number data type
 
 let myAge = 24;
+
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
@@ -53,7 +54,7 @@ var newGreeting = function(name){
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-var groceries = ["apples", "milk", "eggs", "bread",];
+var groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -64,7 +65,7 @@ var groceries = ["apples", "milk", "eggs", "bread",];
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-let dog ={
+let dog = {
     name: "Kai",
     color: "white",
     age: 9,
